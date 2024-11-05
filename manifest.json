@@ -1,8 +1,8 @@
 {
-    "name": "Some script by xQtFT",
+    "name": "Usefulscript for Wolvesville by xQtFT",
     "version": "0.1",
     "manifest_version": 3,
-    "description": "Some usefull script for Wolvesville",
+    "description": "It's a extension included some good script to help u play game better",
     "permissions": ["storage", "tabs","activeTab"],
     "host_permessions": ["https://www.wolvesville.com/"],
     "content_scripts": [
@@ -24,9 +24,6 @@
     "action": {
         "default_title": "Script extension title",
         "default_popup": "popup.html"
-    },"content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self';",
-    "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
-  }
+    }
 }
 

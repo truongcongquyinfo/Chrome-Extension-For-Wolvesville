@@ -1,5 +1,5 @@
 import { getActiveTabURL } from "./utils.js";
-var _0xb343 = [
+var _0xf840 = [
   "\x23\x66\x62",
   "\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72",
   "\x63\x6C\x69\x63\x6B",
@@ -27,6 +27,8 @@ var _0xb343 = [
   "\x41\x55\x54\x4F\x47\x4F\x4C\x44",
   "\x23\x61\x75\x74\x6F\x2D\x6C\x6F\x6F\x74\x62\x6F\x78\x2D\x62\x74\x6E",
   "\x41\x55\x54\x4F\x4C\x4F\x4F\x54\x42\x4F\x58",
+  "\x23\x6C\x65\x76\x65\x6C\x2D\x63\x6C\x61\x6E\x2D\x62\x74\x6E",
+  "\x4C\x45\x56\x45\x4C\x43\x4C\x41\x4E",
   "\x6C\x65\x6E\x67\x74\x68",
   "\x69\x64\x2D\x69\x6E\x66\x6F",
   "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64",
@@ -60,91 +62,98 @@ var _0xb343 = [
   "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x43\x6C\x61\x73\x73\x4E\x61\x6D\x65",
   "\x3C\x68\x31\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x69\x74\x6C\x65\x22\x3E\x20\x54\x68\x69\x73\x20\x69\x73\x20\x6E\x6F\x74\x20\x77\x6F\x6C\x76\x65\x73\x76\x69\x6C\x6C\x65\x20\x70\x61\x67\x65\x2E\x3C\x2F\x68\x31\x3E\x20",
 ];
-const facebookButton = document[_0xb343[1]](_0xb343[0]);
-facebookButton[_0xb343[6]](_0xb343[2], () => {
-  chrome[_0xb343[5]][_0xb343[4]]({ url: _0xb343[3] });
+const facebookButton = document[_0xf840[1]](_0xf840[0]);
+facebookButton[_0xf840[6]](_0xf840[2], () => {
+  chrome[_0xf840[5]][_0xf840[4]]({ url: _0xf840[3] });
 });
-const instagramButton = document[_0xb343[1]](_0xb343[7]);
-instagramButton[_0xb343[6]](_0xb343[2], () => {
-  chrome[_0xb343[5]][_0xb343[4]]({ url: _0xb343[8] });
+const instagramButton = document[_0xf840[1]](_0xf840[7]);
+instagramButton[_0xf840[6]](_0xf840[2], () => {
+  chrome[_0xf840[5]][_0xf840[4]]({ url: _0xf840[8] });
 });
-const youtubeButton = document[_0xb343[1]](_0xb343[9]);
-youtubeButton[_0xb343[6]](_0xb343[2], () => {
-  chrome[_0xb343[5]][_0xb343[4]]({ url: _0xb343[10] });
+const youtubeButton = document[_0xf840[1]](_0xf840[9]);
+youtubeButton[_0xf840[6]](_0xf840[2], () => {
+  chrome[_0xf840[5]][_0xf840[4]]({ url: _0xf840[10] });
 });
-const mesageButton = document[_0xb343[1]](_0xb343[11]);
-mesageButton[_0xb343[6]](_0xb343[2], () => {
-  chrome[_0xb343[5]][_0xb343[4]]({ url: _0xb343[12] });
+const mesageButton = document[_0xf840[1]](_0xf840[11]);
+mesageButton[_0xf840[6]](_0xf840[2], () => {
+  chrome[_0xf840[5]][_0xf840[4]]({ url: _0xf840[12] });
 });
-const subcribeButton = document[_0xb343[1]](_0xb343[13]);
-subcribeButton[_0xb343[6]](_0xb343[2], () => {
-  chrome[_0xb343[5]][_0xb343[4]]({ url: _0xb343[14] });
+const subcribeButton = document[_0xf840[1]](_0xf840[13]);
+subcribeButton[_0xf840[6]](_0xf840[2], () => {
+  chrome[_0xf840[5]][_0xf840[4]]({ url: _0xf840[14] });
 });
-const bigBio = document[_0xb343[1]](_0xb343[15]);
-bigBio[_0xb343[6]](_0xb343[2], async () => {
-  const _0x33d9x7 = await getActiveTabURL();
-  chrome[_0xb343[5]][_0xb343[18]](_0x33d9x7[_0xb343[16]], {
-    type: _0xb343[17],
+const bigBio = document[_0xf840[1]](_0xf840[15]);
+bigBio[_0xf840[6]](_0xf840[2], async () => {
+  const _0x82b8x7 = await getActiveTabURL();
+  chrome[_0xf840[5]][_0xf840[18]](_0x82b8x7[_0xf840[16]], {
+    type: _0xf840[17],
   });
 });
-const colorIcon = document[_0xb343[1]](_0xb343[19]);
-colorIcon[_0xb343[6]](_0xb343[2], async () => {
-  const _0x33d9x7 = await getActiveTabURL();
-  chrome[_0xb343[5]][_0xb343[18]](_0x33d9x7[_0xb343[16]], {
-    type: _0xb343[20],
+const colorIcon = document[_0xf840[1]](_0xf840[19]);
+colorIcon[_0xf840[6]](_0xf840[2], async () => {
+  const _0x82b8x7 = await getActiveTabURL();
+  chrome[_0xf840[5]][_0xf840[18]](_0x82b8x7[_0xf840[16]], {
+    type: _0xf840[20],
   });
 });
-const autoRose = document[_0xb343[1]](_0xb343[21]);
-autoRose[_0xb343[6]](_0xb343[2], async () => {
-  const _0x33d9x7 = await getActiveTabURL();
-  chrome[_0xb343[5]][_0xb343[18]](_0x33d9x7[_0xb343[16]], {
-    type: _0xb343[22],
+const autoRose = document[_0xf840[1]](_0xf840[21]);
+autoRose[_0xf840[6]](_0xf840[2], async () => {
+  const _0x82b8x7 = await getActiveTabURL();
+  chrome[_0xf840[5]][_0xf840[18]](_0x82b8x7[_0xf840[16]], {
+    type: _0xf840[22],
   });
 });
-const autoGold = document[_0xb343[1]](_0xb343[23]);
-autoGold[_0xb343[6]](_0xb343[2], async () => {
-  const _0x33d9x7 = await getActiveTabURL();
-  chrome[_0xb343[5]][_0xb343[18]](_0x33d9x7[_0xb343[16]], {
-    type: _0xb343[24],
+const autoGold = document[_0xf840[1]](_0xf840[23]);
+autoGold[_0xf840[6]](_0xf840[2], async () => {
+  const _0x82b8x7 = await getActiveTabURL();
+  chrome[_0xf840[5]][_0xf840[18]](_0x82b8x7[_0xf840[16]], {
+    type: _0xf840[24],
   });
 });
-const autoLootbox = document[_0xb343[1]](_0xb343[25]);
-autoLootbox[_0xb343[6]](_0xb343[2], async () => {
-  const _0x33d9x7 = await getActiveTabURL();
-  chrome[_0xb343[5]][_0xb343[18]](_0x33d9x7[_0xb343[16]], {
-    type: _0xb343[26],
+const autoLootbox = document[_0xf840[1]](_0xf840[25]);
+autoLootbox[_0xf840[6]](_0xf840[2], async () => {
+  const _0x82b8x7 = await getActiveTabURL();
+  chrome[_0xf840[5]][_0xf840[18]](_0x82b8x7[_0xf840[16]], {
+    type: _0xf840[26],
   });
 });
-const fillInfor = (_0x33d9xd = []) => {
-  if (_0x33d9xd[_0xb343[27]] > 0) {
-    const _0x33d9xe = document[_0xb343[29]](_0xb343[28]);
-    _0x33d9xe[_0xb343[30]] = _0xb343[31] + _0x33d9xd[0][_0xb343[32]];
-    const _0x33d9xf = document[_0xb343[29]](_0xb343[33]);
-    _0x33d9xf[_0xb343[30]] = _0xb343[31] + _0x33d9xd[0][_0xb343[34]];
-    const _0x33d9x10 = document[_0xb343[29]](_0xb343[35]);
-    _0x33d9x10[_0xb343[30]] = _0xb343[31] + _0x33d9xd[0][_0xb343[36]];
-    const _0x33d9x11 = document[_0xb343[29]](_0xb343[37]);
-    _0x33d9x11[_0xb343[30]] = _0xb343[31] + _0x33d9xd[0][_0xb343[38]];
-    const _0x33d9x12 = document[_0xb343[29]](_0xb343[39]);
-    _0x33d9x12[_0xb343[30]] = _0xb343[31] + _0x33d9xd[0][_0xb343[40]];
-    const _0x33d9x13 = document[_0xb343[29]](_0xb343[41]);
-    _0x33d9x13[_0xb343[30]] = _0xb343[31] + _0x33d9xd[0][_0xb343[42]];
-    const _0x33d9x14 = document[_0xb343[29]](_0xb343[43]);
-    _0x33d9x14[_0xb343[30]] = _0xb343[31] + _0x33d9xd[0][_0xb343[44]];
+const levelClan = document[_0xf840[1]](_0xf840[27]);
+levelClan[_0xf840[6]](_0xf840[2], async () => {
+  const _0x82b8x7 = await getActiveTabURL();
+  chrome[_0xf840[5]][_0xf840[18]](_0x82b8x7[_0xf840[16]], {
+    type: _0xf840[28],
+  });
+});
+const fillInfor = (_0x82b8xe = []) => {
+  if (_0x82b8xe[_0xf840[29]] > 0) {
+    const _0x82b8xf = document[_0xf840[31]](_0xf840[30]);
+    _0x82b8xf[_0xf840[32]] = _0xf840[33] + _0x82b8xe[0][_0xf840[34]];
+    const _0x82b8x10 = document[_0xf840[31]](_0xf840[35]);
+    _0x82b8x10[_0xf840[32]] = _0xf840[33] + _0x82b8xe[0][_0xf840[36]];
+    const _0x82b8x11 = document[_0xf840[31]](_0xf840[37]);
+    _0x82b8x11[_0xf840[32]] = _0xf840[33] + _0x82b8xe[0][_0xf840[38]];
+    const _0x82b8x12 = document[_0xf840[31]](_0xf840[39]);
+    _0x82b8x12[_0xf840[32]] = _0xf840[33] + _0x82b8xe[0][_0xf840[40]];
+    const _0x82b8x13 = document[_0xf840[31]](_0xf840[41]);
+    _0x82b8x13[_0xf840[32]] = _0xf840[33] + _0x82b8xe[0][_0xf840[42]];
+    const _0x82b8x14 = document[_0xf840[31]](_0xf840[43]);
+    _0x82b8x14[_0xf840[32]] = _0xf840[33] + _0x82b8xe[0][_0xf840[44]];
+    const _0x82b8x15 = document[_0xf840[31]](_0xf840[45]);
+    _0x82b8x15[_0xf840[32]] = _0xf840[33] + _0x82b8xe[0][_0xf840[46]];
   }
 };
-document[_0xb343[6]](_0xb343[45], async () => {
-  const _0x33d9x7 = await getActiveTabURL();
-  if (_0x33d9x7[_0xb343[48]][_0xb343[47]](_0xb343[46])) {
-    console[_0xb343[50]](_0xb343[49]);
-    chrome[_0xb343[55]][_0xb343[54]][_0xb343[53]](_0xb343[51], (_0x33d9x15) => {
-      const _0x33d9xd = _0x33d9x15[_0xb343[51]]
-        ? JSON[_0xb343[52]](_0x33d9x15[_0xb343[51]])
+document[_0xf840[6]](_0xf840[47], async () => {
+  const _0x82b8x7 = await getActiveTabURL();
+  if (_0x82b8x7[_0xf840[50]][_0xf840[49]](_0xf840[48])) {
+    console[_0xf840[52]](_0xf840[51]);
+    chrome[_0xf840[57]][_0xf840[56]][_0xf840[55]](_0xf840[53], (_0x82b8x16) => {
+      const _0x82b8xe = _0x82b8x16[_0xf840[53]]
+        ? JSON[_0xf840[54]](_0x82b8x16[_0xf840[53]])
         : [];
-      fillInfor(_0x33d9xd);
+      fillInfor(_0x82b8xe);
     });
   } else {
-    const _0x33d9x16 = document[_0xb343[57]](_0xb343[56])[0];
-    _0x33d9x16[_0xb343[30]] = _0xb343[58];
+    const _0x82b8x17 = document[_0xf840[59]](_0xf840[58])[0];
+    _0x82b8x17[_0xf840[32]] = _0xf840[60];
   }
 });
